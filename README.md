@@ -6,6 +6,7 @@ Output To Do/s during Shell Startup. Tested in bash and zsh.
 ## Dependencies
 * [fortune-mod](https://github.com/shlomif/fortune-mod)
 * [cowsay](https://github.com/piuccio/cowsay)
+* date from [coreutils](https://github.com/coreutils/coreutils) (probably installed by default)
 
 <br>
 
@@ -20,6 +21,12 @@ Output To Do/s during Shell Startup. Tested in bash and zsh.
 Clone this repository.
 ```bash
 git clone https://github.com/alexxShandsome/Shell-To-Do-Startup-Message
+```
+
+Navigate to the cloned repository and do a chmod to the script
+```bash
+cd Shell-To-Do-Startup-Message
+chmod u+x shell_startup.sh
 ```
 
 Create a text file with this format inside.
